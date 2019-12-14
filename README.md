@@ -44,5 +44,16 @@ To rerun 1337 preprocesing, update `preprocess.py` to point `WORDLIST_URL` to a 
 python3 src/preprocess.py
 ```
 
-### Disclaimer
+## Disclaimer
 This project is intended for entertainment purposes only - it is *not* recommended for use in your production or intended as a replacement to existing UUID generation mechanisms.  It *might* be a fun thing to include in your non-mission critical personal project(s), provided you're the right kind of weird.
+
+## License
+The MIT License (MIT)
+
+Copyright (c) 2019 [Alex Redmon](http://www.alexredmon.com/)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
