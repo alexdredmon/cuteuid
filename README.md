@@ -1,5 +1,5 @@
 # cuteuid
-Generate cute UIDs, i.e. unique(ish) identifiers that are similar(ish) in appearance to increasingly ubiquitous [UUIDs](https://en.wikipedia.org/wiki/Universally_unique_identifier).
+Generate cute UIDs, i.e. unique(ish) identifiers that are similar(ish) in appearance to [UUIDs](https://en.wikipedia.org/wiki/Universally_unique_identifier).
 
 ## Usage
 ```python
