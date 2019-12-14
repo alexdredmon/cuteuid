@@ -1,0 +1,2 @@
+# cuteuid
+Generate cute UIDs
