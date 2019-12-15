@@ -1,10 +1,10 @@
 import random
 
-from core.kinds.base_uid import BaseUid
+from .base_uid import BaseUid
 
 
 class EmojiUid(BaseUid):
-    data_file = "./data/emojis.json"
+    data_file = "data/emojis.json"
     delimeter = "➖"
 
     def __init__(self, flags_only=False, smileys_only=False):

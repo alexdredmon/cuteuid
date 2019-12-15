@@ -1,5 +1,11 @@
 # cuteuid
-Generate cute UIDs, i.e. unique(ish) identifiers that are similar(ish) in appearance to [UUIDs](https://en.wikipedia.org/wiki/Universally_unique_identifier).
+Generate cute UIDs, i.e. unique(ish) identifiers that are similar in appearance to [UUIDs](https://en.wikipedia.org/wiki/Universally_unique_identifier).
+
+## Install
+```bash
+pip install cuteuid
+```
+View on PyPi via [https://pypi.org/project/cuteuid/](https://pypi.org/project/cuteuid/)
 
 ## Usage
 ```python
@@ -38,10 +44,10 @@ generate_cuteuid(                   # EmojiUID (smileys only)
 ```
 
 ## Preprocess
-To rerun 1337 preprocesing, update `preprocess.py` to point `WORDLIST_URL` to a URL containing a valid JSON list of words and run:
+To rerun 1337 text preprocesing (translating word list into 1337 and hex 1337), update `preprocess.py` to point `WORDLIST_URL` to a URL containing a valid JSON list of words and run:
 
 ```bash
-python3 src/preprocess.py
+make preprocess
 ```
 
 ## Disclaimer

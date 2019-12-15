@@ -26,8 +26,6 @@ with urlopen(WORDLIST_URL) as url:
                 leet_words[len(leet)].append(leet)
             hex_leet = to_hex_leet(word)
             if " " not in hex_leet:
-                print("Word", word)
-                print("Hex", hex_leet)
                 hex_leet_words[len(leet)].append(hex_leet)
     words = {
         "all": all_words,

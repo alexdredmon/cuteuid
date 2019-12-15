@@ -1,4 +1,5 @@
 import json
+import os
 import random
 
 
@@ -7,11 +8,14 @@ def rand(max):
 
 
 class BaseUid:
-    data_file = "./data/words.json"
+    data_file = "data/words.json"
     delimeter = "-"
 
     def __init__(self):
-        with open(self.data_file, encoding='utf-8') as json_file:
+        directory = os.path.dirname(__file__)
+        base_path = f"{directory}/../.."
+        full_path = f"{base_path}/{self.data_file}"
+        with open(full_path, encoding='utf-8') as json_file:
             self.data = json.load(json_file)
 
     @property

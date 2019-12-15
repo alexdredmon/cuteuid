@@ -1,10 +1,10 @@
 import random
 
-from core.kinds.base_uid import BaseUid
+from .base_uid import BaseUid
 
 
 class LeetUid(BaseUid):
-    data_file = "./data/words.json"
+    data_file = "data/words.json"
 
     def __init__(self, hex_only=False):
         super().__init__()

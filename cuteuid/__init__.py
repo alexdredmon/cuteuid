@@ -1,4 +1,4 @@
-from core.kinds import emoji_uid, leet_uid
+from .core.kinds import emoji_uid, leet_uid
 
 
 def generate_cuteuid(
