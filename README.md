@@ -1,4 +1,4 @@
-# cuteuid
+# CuteUID
 Generate cute UIDs, i.e. unique(ish) identifiers that are similar in appearance to [UUIDs](https://en.wikipedia.org/wiki/Universally_unique_identifier).
 
 ## Install

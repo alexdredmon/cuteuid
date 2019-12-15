@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="cuteuid", # Replace with your own username
-    version="1.0.0",
+    version="1.0.1",
     author="Alex Redmon",
     author_email="alexandriadredmon@gmail.com",
     description="Generate cute UIDs, i.e. unique(ish) identifiers that are similar in appearance to UUIDs.",
